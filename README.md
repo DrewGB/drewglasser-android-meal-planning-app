@@ -20,8 +20,21 @@ Create recipes with a photo, assign them to Breakfast/Lunch/Dinner, and get noti
 - **SharedPreferences** for `breakfast`, `lunch`, `dinner` times
 
 ## Screenshots
-![Meals for the day screen showing Breakfast/Lunch/Dinner sections](docs/images/meal-planner.png)
-![Recipe detail with photo and notes](docs/images/recipe-view.png)
+<p>
+  <a href="docs/images/meal-planner.png">
+    <img src="docs/images/meal-planner.png"
+         width="360"
+         alt="Meals for the day screen showing Breakfast/Lunch/Dinner sections">
+  </a>
+</p>
+
+<p>
+  <a href="docs/images/recipe-view.png">
+    <img src="docs/images/recipe-view.png"
+         width="360"
+         alt="Recipe detail with photo and notes">
+  </a>
+</p>
 
 ## How it works
 - **Recipe**: `id`, `title`, `imagePath`, `notes`
