@@ -19,6 +19,10 @@ Create recipes with a photo, assign them to Breakfast/Lunch/Dinner, and get noti
 - **Notifications** with `AlarmManager` + `PendingIntent` → `MealService` posts a `Notification`
 - **SharedPreferences** for `breakfast`, `lunch`, `dinner` times
 
+## Screenshots
+![Meals for the day screen showing Breakfast/Lunch/Dinner sections](docs/images/meal-planner.png)
+![Recipe detail with photo and notes](docs/images/recipe-view.png)
+
 ## How it works
 - **Recipe**: `id`, `title`, `imagePath`, `notes`
 - **Meal**: `id`, `recipeId`, `mealType` (`"breakfast" | "lunch" | "dinner"`), `date`
